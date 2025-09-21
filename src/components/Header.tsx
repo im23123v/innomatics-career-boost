@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Brain, Users, FileCheck } from "lucide-react";
+import { Menu, X, Users, FileCheck } from "lucide-react";
+import innomaticsLogo from "@/assets/innomatics-logo.png";
 
 interface HeaderProps {
   onHRLogin?: () => void;
@@ -10,7 +11,7 @@ const Header = ({ onHRLogin }: HeaderProps) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleResumeCheck = () => {
-    window.open("https://example.com/resume-checker", "_blank");
+    window.open("https://app.resumesranker.com/", "_blank");
   };
 
   return (
@@ -19,8 +20,8 @@ const Header = ({ onHRLogin }: HeaderProps) => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-primary to-primary-glow rounded-lg flex items-center justify-center">
-              <Brain className="w-6 h-6 text-primary-foreground" />
+            <div className="w-10 h-10 flex items-center justify-center">
+              <img src={innomaticsLogo} alt="Innomatics Research Labs" className="w-10 h-10 object-contain" />
             </div>
             <div>
               <h1 className="text-xl font-bold text-primary">Innomatics</h1>
@@ -32,7 +33,7 @@ const Header = ({ onHRLogin }: HeaderProps) => {
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#home" className="text-foreground hover:text-primary transition-colors">Home</a>
             <a href="#features" className="text-foreground hover:text-primary transition-colors">Features</a>
-            <a href="#courses" className="text-foreground hover:text-primary transition-colors">Courses</a>
+            <a href="https://www.innomatics.in/" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors">Courses</a>
             <a href="#testimonials" className="text-foreground hover:text-primary transition-colors">Testimonials</a>
             <a href="#contact" className="text-foreground hover:text-primary transition-colors">Contact</a>
           </nav>
@@ -64,7 +65,7 @@ const Header = ({ onHRLogin }: HeaderProps) => {
             <nav className="flex flex-col space-y-4 mt-4">
               <a href="#home" className="text-foreground hover:text-primary transition-colors">Home</a>
               <a href="#features" className="text-foreground hover:text-primary transition-colors">Features</a>
-              <a href="#courses" className="text-foreground hover:text-primary transition-colors">Courses</a>
+              <a href="https://www.innomatics.in/" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors">Courses</a>
               <a href="#testimonials" className="text-foreground hover:text-primary transition-colors">Testimonials</a>
               <a href="#contact" className="text-foreground hover:text-primary transition-colors">Contact</a>
               <div className="flex flex-col space-y-2 pt-4">

@@ -4,11 +4,11 @@ import VoiceAssistant from "@/components/VoiceAssistant";
 
 const HeroSection = () => {
   const handleChatWithAI = () => {
-    window.open("https://example.com/chat", "_blank");
+    window.open("https://innomatics-ai.zapier.app", "_blank");
   };
 
   const handleCheckResume = () => {
-    window.open("https://example.com/resume-checker", "_blank");
+    window.open("https://app.resumesranker.com/", "_blank");
   };
 
   return (

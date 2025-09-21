@@ -92,11 +92,7 @@ const HRAdminPanel = () => {
   });
 
   const handleBulkUpload = () => {
-    toast({
-      title: "Bulk Upload",
-      description: "Resume upload feature would be integrated here with file processing.",
-      duration: 3000,
-    });
+    window.open("https://app.resumesranker.com/", "_blank");
     setIsUploadDialogOpen(false);
   };
 
