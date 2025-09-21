@@ -40,19 +40,44 @@ const Footer = () => {
               cutting-edge technologies.
             </p>
             <div className="flex space-x-4">
-              <Button variant="ghost" size="icon" className="hover:text-primary">
+              <Button 
+                variant="ghost" 
+                size="icon" 
+                className="hover:text-primary"
+                onClick={() => window.open("https://www.innomatics.in/", "_blank")}
+              >
                 <Facebook className="w-5 h-5" />
               </Button>
-              <Button variant="ghost" size="icon" className="hover:text-primary">
+              <Button 
+                variant="ghost" 
+                size="icon" 
+                className="hover:text-primary"
+                onClick={() => window.open("https://www.innomatics.in/", "_blank")}
+              >
                 <Twitter className="w-5 h-5" />
               </Button>
-              <Button variant="ghost" size="icon" className="hover:text-primary">
+              <Button 
+                variant="ghost" 
+                size="icon" 
+                className="hover:text-primary"
+                onClick={() => window.open("https://www.innomatics.in/", "_blank")}
+              >
                 <Instagram className="w-5 h-5" />
               </Button>
-              <Button variant="ghost" size="icon" className="hover:text-primary">
+              <Button 
+                variant="ghost" 
+                size="icon" 
+                className="hover:text-primary"
+                onClick={() => window.open("https://www.innomatics.in/", "_blank")}
+              >
                 <Linkedin className="w-5 h-5" />
               </Button>
-              <Button variant="ghost" size="icon" className="hover:text-primary">
+              <Button 
+                variant="ghost" 
+                size="icon" 
+                className="hover:text-primary"
+                onClick={() => window.open("https://www.innomatics.in/", "_blank")}
+              >
                 <Youtube className="w-5 h-5" />
               </Button>
             </div>

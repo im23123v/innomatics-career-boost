@@ -248,7 +248,10 @@ const CoursesSection = () => {
                   </div>
 
                   {/* CTA Button */}
-                  <Button className="w-full group-hover:scale-105 transition-transform duration-300">
+                  <Button 
+                    className="w-full group-hover:scale-105 transition-transform duration-300"
+                    onClick={() => window.open("https://www.innomatics.in/", "_blank")}
+                  >
                     Enroll Now
                     <ArrowRight className="w-4 h-4 ml-2" />
                   </Button>
@@ -269,10 +272,18 @@ const CoursesSection = () => {
               your career goals and current skill level.
             </p>
             <div className="flex flex-col md:flex-row gap-4 justify-center">
-              <Button variant="hero" size="lg">
+              <Button 
+                variant="hero" 
+                size="lg"
+                onClick={() => window.open("https://www.innomatics.in/", "_blank")}
+              >
                 Get Free Career Counseling
               </Button>
-              <Button variant="outline" size="lg">
+              <Button 
+                variant="outline" 
+                size="lg"
+                onClick={() => window.open("https://www.innomatics.in/", "_blank")}
+              >
                 View All Courses
               </Button>
             </div>
