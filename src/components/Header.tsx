@@ -31,11 +31,11 @@ const Header = ({ onHRLogin }: HeaderProps) => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#home" className="text-foreground hover:text-primary transition-colors">Home</a>
-            <a href="#features" className="text-foreground hover:text-primary transition-colors">Features</a>
+            <a href="https://www.innomatics.in/" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors">Home</a>
+            <a href="https://www.innomatics.in/" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors">Features</a>
             <a href="https://www.innomatics.in/" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors">Courses</a>
-            <a href="#testimonials" className="text-foreground hover:text-primary transition-colors">Testimonials</a>
-            <a href="#contact" className="text-foreground hover:text-primary transition-colors">Contact</a>
+            <a href="https://www.innomatics.in/" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors">Testimonials</a>
+            <a href="https://www.innomatics.in/" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors">Contact</a>
           </nav>
 
           {/* Action Buttons */}
@@ -63,11 +63,11 @@ const Header = ({ onHRLogin }: HeaderProps) => {
         {isMenuOpen && (
           <div className="md:hidden mt-4 pb-4 border-t border-border">
             <nav className="flex flex-col space-y-4 mt-4">
-              <a href="#home" className="text-foreground hover:text-primary transition-colors">Home</a>
-              <a href="#features" className="text-foreground hover:text-primary transition-colors">Features</a>
+              <a href="https://www.innomatics.in/" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors">Home</a>
+              <a href="https://www.innomatics.in/" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors">Features</a>
               <a href="https://www.innomatics.in/" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors">Courses</a>
-              <a href="#testimonials" className="text-foreground hover:text-primary transition-colors">Testimonials</a>
-              <a href="#contact" className="text-foreground hover:text-primary transition-colors">Contact</a>
+              <a href="https://www.innomatics.in/" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors">Testimonials</a>
+              <a href="https://www.innomatics.in/" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors">Contact</a>
               <div className="flex flex-col space-y-2 pt-4">
                 <Button variant="outline" size="sm" onClick={onHRLogin}>
                   <Users className="w-4 h-4 mr-2" />
